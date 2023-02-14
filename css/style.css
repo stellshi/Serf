@@ -111,6 +111,7 @@ body {
 }
 
 .header__content-inner {
+  min-height: calc(100vh - 98px) ;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -125,7 +126,7 @@ body {
   letter-spacing: 0.6px;
 
   margin-top: auto;
-  padding-top: 240px;
+  
   
 }
 
@@ -138,8 +139,9 @@ body {
   letter-spacing: 0.6px;
   color: #000000;
   margin-bottom: auto;
+
 }
 .header__icon {
-  margin-bottom: 92px;
-  margin-top: auto;
+  margin-bottom: 94px;
+
 }
