@@ -67,7 +67,7 @@ body {
 }
 
 .container {
-  max-width: 1190px;
+  max-width: 1220px;
   padding: 0 10px;
   margin: 0 auto;
 }
@@ -111,7 +111,7 @@ body {
 }
 
 .header__content-inner {
-  min-height: calc(100vh - 98px) ;
+  min-height: calc(100vh - 98px);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -126,8 +126,6 @@ body {
   letter-spacing: 0.6px;
 
   margin-top: auto;
-  
-  
 }
 
 .header__subtitle {
@@ -139,9 +137,108 @@ body {
   letter-spacing: 0.6px;
   color: #000000;
   margin-bottom: auto;
-
 }
 .header__icon {
   margin-bottom: 94px;
+}
 
+.about {
+  margin-top: 190px;
+  margin-bottom: 170px;
+}
+
+.title {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: 0.6px;
+  color: #01353e;
+
+  position: relative;
+
+  align-self: flex-start;
+}
+
+.title::after {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 7px;
+  background-color: #00b2a0;
+  bottom: 6px;
+  /* right: 100px; */
+  transform: rotate(115deg) scaleX(-0.8);
+}
+
+.about__title {
+  margin-bottom: 100px;
+}
+
+.about__text {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.about__text p {
+  max-width: 480px;
+  margin-bottom: 30px;
+
+  font-family: "Roboto Condensed", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.6px;
+
+  color: #242121;
+}
+
+.school {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.school__title {
+  margin-bottom: 100px;
+}
+
+.school__item-itext {
+  max-width: 350px;
+}
+
+.school__item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.school__item-titleblock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.school__item-ititle {
+  font-family: "Roboto Condensed", sans-serif;
+  margin-left: 10px;
+  max-width: 150px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.6px;
+  color: #242121;
+}
+.school__item-itext p {
+  font-family: "Roboto Condensed", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.6px;
+
+  color: #242121;
 }
