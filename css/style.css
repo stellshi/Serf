@@ -198,8 +198,9 @@ body {
 }
 
 .school {
-  margin-top: 200px;
-  margin-bottom: 200px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-color: #f8f8f8;
 }
 
 .school__title {
@@ -213,6 +214,8 @@ body {
 .school__item {
   display: flex;
   justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 100px;
 }
 
 .school__item-titleblock {
@@ -241,4 +244,63 @@ body {
   letter-spacing: 0.6px;
 
   color: #242121;
+}
+
+.school__aside {
+  display: flex;
+  justify-content: space-between;
+}
+
+.school__aside-item {
+}
+
+.expertise__info p {
+  margin: 0 0 10px;
+}
+
+.school__aside-text {
+  width: 600px;
+}
+
+.school__aside-text p {
+  margin-bottom: 30px;
+}
+
+.expertise__info-flex {
+  display: flex;
+}
+.expertise__info-flex span {
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 18px;
+  letter-spacing: 0.6px;
+  color: #242121;
+}
+
+.expertise__info-flex img {
+  margin-right: 10px;
+}
+
+.peaks {
+ 
+  background-image: url(../images/peaks-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: right 50%;
+}
+
+.peaks__inner {
+  width: 560px;
+}
+
+.peaks__title {
+  padding-top: 200px;
+  margin-bottom: 100px;
+}
+
+.peaks__inner p{
+  margin-bottom: 30px;
+  width: 510px;
 }
